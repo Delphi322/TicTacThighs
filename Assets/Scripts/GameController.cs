@@ -80,107 +80,41 @@ public class GameController : MonoBehaviour
     {
         moveCount++;
 
-        //horizontal 
+        //win conditions
 
-        if (bL[0].text == pS && bL[1].text == pS && bL[2].text == pS)
+        if (bL[0].text == pS && bL[1].text == pS && bL[4].text == pS && bL[5].text == pS)
         {
             GameOver(pS);
         }
-        else if (bL[1].text == pS && bL[2].text == pS && bL[3].text == pS)
+        else if (bL[1].text == pS && bL[2].text == pS && bL[5].text == pS && bL[6].text == pS)
         {
             GameOver(pS);
         }
-        else if (bL[4].text == pS && bL[5].text == pS && bL[6].text == pS)
+        else if (bL[2].text == pS && bL[3].text == pS && bL[6].text == pS && bL[7].text == pS)
         {
             GameOver(pS);
         }
-        else if (bL[5].text == pS && bL[6].text == pS && bL[7].text == pS)
+        else if (bL[4].text == pS && bL[5].text == pS && bL[8].text == pS && bL[9].text == pS)
         {
             GameOver(pS);
         }
-        else if (bL[8].text == pS && bL[9].text == pS && bL[10].text == pS)
+        else if (bL[5].text == pS && bL[6].text == pS && bL[9].text == pS && bL[10].text == pS)
         {
             GameOver(pS);
         }
-        else if (bL[9].text == pS && bL[10].text == pS && bL[11].text == pS)
+        else if (bL[6].text == pS && bL[7].text == pS && bL[10].text == pS && bL[11].text == pS)
         {
             GameOver(pS);
         }
-        else if (bL[12].text == pS && bL[13].text == pS && bL[14].text == pS)
+        else if (bL[8].text == pS && bL[9].text == pS && bL[12].text == pS && bL[13].text == pS)
         {
             GameOver(pS);
         }
-        else if (bL[13].text == pS && bL[14].text == pS && bL[15].text == pS)
+        else if (bL[9].text == pS && bL[10].text == pS && bL[13].text == pS && bL[14].text == pS)
         {
             GameOver(pS);
         }
-
-        //vertical
-
-        else if (bL[0].text == pS && bL[4].text == pS && bL[8].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[4].text == pS && bL[8].text == pS && bL[12].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[1].text == pS && bL[5].text == pS && bL[9].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[5].text == pS && bL[9].text == pS && bL[13].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[2].text == pS && bL[6].text == pS && bL[10].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[6].text == pS && bL[10].text == pS && bL[14].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[3].text == pS && bL[7].text == pS && bL[11].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[7].text == pS && bL[11].text == pS && bL[15].text == pS)
-        {
-            GameOver(pS);
-        }
-
-        //diagonal
-
-        else if (bL[0].text == pS && bL[5].text == pS && bL[10].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[5].text == pS && bL[10].text == pS && bL[15].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[1].text == pS && bL[6].text == pS && bL[11].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[4].text == pS && bL[9].text == pS && bL[14].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[3].text == pS && bL[6].text == pS && bL[9].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[6].text == pS && bL[9].text == pS && bL[12].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[2].text == pS && bL[5].text == pS && bL[8].text == pS)
-        {
-            GameOver(pS);
-        }
-        else if (bL[7].text == pS && bL[10].text == pS && bL[13].text == pS)
+        else if (bL[10].text == pS && bL[11].text == pS && bL[14].text == pS && bL[15].text == pS)
         {
             GameOver(pS);
         }
